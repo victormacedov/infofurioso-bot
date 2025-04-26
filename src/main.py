@@ -1,17 +1,9 @@
-import sys
-import os
-
-# Adiciona o diretório 'src' ao caminho de busca de módulos
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-
-from services.furia_api import buscar_equipe
-
 from telegram.ext import ApplicationBuilder, CommandHandler
-from config import TELEGRAM_TOKEN
-from handlers.start import start
-from handlers.escalacao import escalacao
-from handlers.resultado import resultado
-from handlers.proximo import proximo
+from src.config import TELEGRAM_TOKEN
+from src.handlers.start import start
+from src.handlers.escalacao import escalacao
+from src.handlers.resultado import resultado
+from src.handlers.proximo import proximo
 
 def main():
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
