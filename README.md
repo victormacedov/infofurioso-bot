@@ -15,7 +15,7 @@ Com ele, você pode acompanhar:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/infofurioso-bot.git
+git clone https://github.com/victormacedov/infofurioso-bot.git
 cd infofurioso-bot
 ```
 
