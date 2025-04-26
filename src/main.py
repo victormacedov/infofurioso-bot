@@ -2,7 +2,9 @@ import sys
 import os
 
 # Adiciona o diretório 'src' ao caminho de busca de módulos
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+from services.furia_api import buscar_equipe
 
 from telegram.ext import ApplicationBuilder, CommandHandler
 from config import TELEGRAM_TOKEN
