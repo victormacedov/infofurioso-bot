@@ -3,9 +3,9 @@
 Um bot de Telegram para fãs da FURIA Esports!  
 Com ele, você pode acompanhar:
 
-- Escalações atualizadas 🧒‍♂️  
-- Resultados recentes 📊  
-- Próximos jogos 🗕️
+- Escalações atualizadas
+- Resultados recentes
+- Próximos jogos
 
 > Desenvolvido usando **Python** e **PandaScore API**.
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 4. Execute o bot:
 ```bash
-python src/main.py
+python main.py
 ```
 
 O bot estará rodando e esperando as mensagens no Telegram!
@@ -52,16 +52,18 @@ O bot estará rodando e esperando as mensagens no Telegram!
 ## 🛠 Estrutura do Projeto
 
 ```
-src/
-├── config.py           # Configurações e variáveis do ambiente
-├── main.py             # Ponto de entrada do bot
-├── handlers/           # Handlers dos comandos do bot
-│   ├── start.py
-│   ├── escalacao.py
-│   ├── resultado.py
-│   └── proximo.py
-└── services/
-    └── furia_api.py    # Integração com a API da PandaScore
+infofurioso-bot/
+├── config.py               # Configurações e variáveis de ambiente
+├── main.py                 # Arquivo principal de execução do bot
+├── source/                 
+│   ├── handlers/           # Contém os handlers dos comandos do bot
+│   │   ├── escalacao.py    # Handler para o comando /escalacao
+│   │   ├── proximo.py      # Handler para o comando /proximo
+│   │   ├── resultado.py    # Handler para o comando /resultado
+│   │   └── start.py        # Handler para o comando /start
+│   └── services/           # Contém os serviços (integrações externas, lógicas)
+│       └── furia_api.py    # Serviço para a integração com a API da PandaScore
+└── .env                    # Arquivo para armazenar variáveis de ambiente
 ```
 
 ---

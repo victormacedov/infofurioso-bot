@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ContextTypes
 from datetime import datetime
-from src.services.furia_api import buscar_partidas_passadas
-from src.config import FURIA_IDS
+from source.services.furia_api import buscar_partidas_passadas
+from config import FURIA_IDS
 
 async def resultado(update: Update, context: ContextTypes.DEFAULT_TYPE):
     today = datetime.today().date().isoformat()

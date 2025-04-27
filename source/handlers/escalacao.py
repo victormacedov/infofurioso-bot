@@ -1,8 +1,8 @@
 import asyncio
 from telegram import Update
 from telegram.ext import ContextTypes
-from src.services.furia_api import buscar_equipe
-from src.config import FURIA_TEAM_SLUG
+from source.services.furia_api import buscar_equipe
+from config import FURIA_TEAM_SLUG
 
 async def escalacao(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:

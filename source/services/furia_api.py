@@ -1,5 +1,5 @@
 import requests
-from src.config import HEADERS
+from config import HEADERS
 
 def buscar_equipe(slug):
     url = f"https://api.pandascore.co/teams?search[name]={slug}"

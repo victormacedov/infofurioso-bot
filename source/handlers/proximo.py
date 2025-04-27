@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ContextTypes
 from datetime import datetime, timezone, timedelta
-from src.services.furia_api import buscar_proximas_partidas
-from src.config import FURIA_IDS
+from source.services.furia_api import buscar_proximas_partidas
+from config import FURIA_IDS
 
 async def proximo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     agora = datetime.now(timezone.utc)
