@@ -9,6 +9,8 @@ Com ele, você pode acompanhar:
 
 > Desenvolvido usando **Python** e **PandaScore API**.
 
+**Antes de seguir os próximos passos, certifique-se de ter os tokens necessários. O do bot do Telegram pode ser gerado através do @BotFather e o token da API é solicitado através do site da mesma.**
+
 ---
 
 ## 🚀 Como Rodar Localmente
@@ -43,9 +45,9 @@ O bot estará rodando e esperando as mensagens no Telegram!
 ## 📚 Comandos Disponíveis
 
 - `/start` → Dá boas-vindas e lista os comandos disponíveis.
-- `/escalacao` → Mostra os jogadores das equipes da FURIA em todas as modalidades disponíveis/ativas.
-- `/resultado` → Exibe os resultados das 5 últimas partidas dos times disponíveis/ativos.
-- `/proximo` → Mostra os próximos jogos programados da FURIA.
+- `/escalacao` → Mostra os jogadores das equipes da FURIA em todas as modalidades disponíveis / ativas.
+- `/resultado` → Exibe os resultados das 5 últimas partidas dos times disponíveis / ativos.
+- `/proximo` → Mostra os próximos jogos programados da FURIA dos times disponíveis / ativos.
 
 ---
 
