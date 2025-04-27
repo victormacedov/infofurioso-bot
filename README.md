@@ -9,7 +9,16 @@ Com ele, você pode acompanhar:
 
 > Desenvolvido usando **Python** e **PandaScore API**.
 
-**Antes de seguir os próximos passos, certifique-se de ter os tokens necessários. O do bot do Telegram pode ser gerado através do @BotFather e o token da API é solicitado através do site da mesma.**
+---
+
+## 📱 Bot Online!
+
+O **InfoFurioso Bot** já está no ar e disponível no **Telegram**!  
+É só acessar o link abaixo para começar a usar:
+
+👉 [**Clique aqui para abrir o InfoFurioso Bot**](https://t.me/InfoFurioso_bot)
+
+Adicione o bot no grupo da torcida mais **FURIOSA** do mundo e fique sempre por dentro dos jogos, escalações e resultados da nossa equipe! ♥️🐾
 
 ---
 
@@ -55,17 +64,17 @@ O bot estará rodando e esperando as mensagens no Telegram!
 
 ```
 infofurioso-bot/
-├── config.py               # Configurações e variáveis de ambiente
-├── main.py                 # Arquivo principal de execução do bot
-├── source/                 
-│   ├── handlers/           # Contém os handlers dos comandos do bot
-│   │   ├── escalacao.py    # Handler para o comando /escalacao
-│   │   ├── proximo.py      # Handler para o comando /proximo
-│   │   ├── resultado.py    # Handler para o comando /resultado
-│   │   └── start.py        # Handler para o comando /start
-│   └── services/           # Contém os serviços (integrações externas, lógicas)
-│       └── furia_api.py    # Serviço para a integração com a API da PandaScore
-└── .env                    # Arquivo para armazenar variáveis de ambiente
+🖊️ config.py               # Configurações e variáveis de ambiente
+🖊️ main.py                 # Arquivo principal de execução do bot
+🖊️ source/                 
+🖊️🖊️ handlers/           # Contém os handlers dos comandos do bot
+    🖊️ escalacao.py    # Handler para o comando /escalacao
+    🖊️ proximo.py      # Handler para o comando /proximo
+    🖊️ resultado.py    # Handler para o comando /resultado
+    🖊️ start.py        # Handler para o comando /start
+🖊️🖊️ services/           # Contém os serviços (integrações externas, lógicas)
+    🖊️ furia_api.py    # Serviço para a integração com a API da PandaScore
+🖊️ .env                    # Arquivo para armazenar variáveis de ambiente
 ```
 
 ---
@@ -75,6 +84,7 @@ infofurioso-bot/
 - Python 3.12
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - API [PandaScore](https://developers.pandascore.co/)
+- Railway (deploy em nuvem)
 
 ---
 
@@ -94,5 +104,6 @@ Veja o arquivo `LICENSE` para mais detalhes.
 
 ## ✨ Créditos
 
-Criado com carinho por um e para todos os fãs da FURIA! 🖤
+Criado com carinho por um e para todos os fãs da FURIA! ♥️  
+**InfoFurioso Bot**: Conectando a torcida furiosa a cada jogada!
 
