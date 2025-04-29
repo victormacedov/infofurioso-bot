@@ -86,6 +86,8 @@ infofurioso-bot/
 - API [PandaScore](https://developers.pandascore.co/)
 - Railway (deploy em nuvem)
 
+**Algumas informações podem estar desatualizadas, pois a API pode demorar um pouco para atualizar, porém seu funcionamento está 100%.**
+
 ---
 
 ## 🤝 Contribuindo
