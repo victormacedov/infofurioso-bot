@@ -54,7 +54,7 @@ O bot estará rodando e esperando as mensagens no Telegram!
 ## 📚 Comandos Disponíveis
 
 - `/start` → Dá boas-vindas e lista os comandos disponíveis.
-- `/escalacao` → Mostra os jogadores das equipes da FURIA em todas as modalidades disponíveis / ativas.
+- `/escalacao` → Exibe a escalação dos jogadores das equipes da FURIA em todas as modalidades nas quais atuam ou atuaram, conforme disponibilizado pela API.
 - `/resultado` → Exibe os resultados das 5 últimas partidas dos times disponíveis / ativos.
 - `/proximo` → Mostra os próximos jogos programados da FURIA dos times disponíveis / ativos.
 
